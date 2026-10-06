@@ -20,6 +20,11 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
+input{
+    height: 70px;
+    font-size: 30px;
+    border-radius: 10px;
+}
 
 .display {
     background: rgba(0, 0, 0, 0.3);
@@ -31,11 +36,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: white;
 }
-.dis{
-    font-size: 30px;
-    color: aliceblue;
-}
+
 .button{
       display: grid;
     grid-template-columns: repeat(4, 1fr);
